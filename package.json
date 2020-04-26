@@ -1,0 +1,20 @@
+{
+    "name": "storybook-for-react-comp",
+    "version": "1.0.0",
+    "description": "storybook-for-react-comp",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pvnkumar17/storybook-for-react.git"
+    },
+    "contributors": [
+      "Pawan Kumar"
+    ],
+    "license": "GNU",
+    "scripts": {
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+  }
+  
