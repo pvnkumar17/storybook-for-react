@@ -1,20 +1,30 @@
 {
-    "name": "storybook-for-react-comp",
-    "version": "1.0.0",
-    "description": "storybook-for-react-comp",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pvnkumar17/storybook-for-react.git"
-    },
-    "contributors": [
-      "Pawan Kumar"
-    ],
-    "license": "GNU",
-    "scripts": {
-    },
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
+  "name": "storybook-for-react-comp",
+  "version": "1.0.0",
+  "description": "storybook-for-react-comp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pvnkumar17/storybook-for-react.git"
+  },
+  "contributors": [
+    "Pawan Kumar"
+  ],
+  "license": "GNU",
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "babel-loader": "^8.1.0"
   }
-  
+}
